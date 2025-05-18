@@ -10,9 +10,21 @@ class Basics
         //float : 6-7 decimal places (32 bits)
         //double: 15 decimal places (64 bits)
         //char : store characters 
-        //boolean : true or false 
+        //boolean : true or false
+        
+        //operators:
+        //unary : -, +, --, ++
+        //ternary:
+        //condition ? first : second
         int num = 1000;
-
+        num = -num;
+        num = -num;
         System.out.println(num);
+
+        String name = "Joby John";
+        System.out.println((name.length()));
+        System.out.println(name.substring(0, 4));
+        String wife = "Anna" + " "+ name;
+        System.out.println(wife);
     }
 }
